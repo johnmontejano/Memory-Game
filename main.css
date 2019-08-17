@@ -1,0 +1,62 @@
+.board-container{
+    height: 370px;
+    width: 370px;
+}
+.board-container .row{
+    height: 100%;    
+}
+.board-square{
+    height: 25%; 
+    padding:2px;;
+    overflow: hidden;
+    border-color:#F7F7F7;
+}
+.face-container{
+    height:200%;
+    width:100%;   
+    transition: 400ms;
+}
+.faceup,.facedown{
+    height: 50%;
+}
+.facedown{
+    background:#D0D0D0;
+}
+.faceup{
+}
+.flipped .face-container{
+    top:100%;
+}
+
+/* colors */
+.color-0 {
+    background-color: aqua;
+  }
+  
+  .color-1 {
+    background-color: bisque;
+  }
+  
+  .color-2 {
+    background-color: blue;
+  }
+  
+  .color-3 {
+    background-color: blueviolet;
+  }
+  
+  .color-4 {
+    background-color: brown;
+  }
+  
+  .color-5 {
+    background-color: cadetblue;
+  }
+  
+  .color-6 {
+    background-color: chartreuse;
+  }
+  
+  .color-7 {
+    background-color: coral;
+  }
